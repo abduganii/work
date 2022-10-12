@@ -1,0 +1,69 @@
+.Beautiful {
+    background-color: #F79009;
+    padding-top: 175px;
+    padding-bottom: 79px;
+    position: relative;
+    z-index: -2;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &_left {
+        width: 100%;
+        max-width: 567px;
+        margin-left: 32px;
+
+        &-title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 60px;
+            line-height: 72px;
+            letter-spacing: -0.02em;
+            color: #FFFFFF;
+        }
+
+        &-text {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #F2F4F7;
+            margin-bottom: 24px;
+        }
+
+        &-btn {
+            display: flex;
+
+        }
+
+        &-link {
+            display: inline-block;
+            border: none;
+            margin-right: 12px;
+            height: 40px;
+            width: 135px;
+
+        }
+    }
+
+    &_right {
+        &-mobel {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        &-phone {
+            position: absolute;
+            right: 433px;
+            bottom: 0;
+        }
+
+    }
+}

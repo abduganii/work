@@ -18,7 +18,7 @@ const Header = () => {
                             </NavLink>
                         </li>
                         <li className='header__nav-item'>
-                            <NavLink className="header__nav-link" to={'/'}>
+                            <NavLink className="header__nav-link" to={'/service'}>
                                 Service
                             </NavLink>
                         </li>

@@ -1,26 +1,17 @@
 import './App.scss';
-import Beautiful from './components/beautiful/beautiful';
-import Features from './components/features/features';
-import Footer from './components/footer/footer';
-import Header from "./components/header/header";
-import Integration from './components/integration/integration';
-import Join from './components/join/join';
-import OurService from './components/ourService/ourService';
-import Pricing from './components/Pricing/pricing';
-import Question from './components/question/question';
+
+
+import { Routes, Route } from "react-router-dom";
+import Home from './page/Home/home';
+import Service from './page/Service/service';
 
 function App() {
   return (
     <>
-      <Header />
-      <Beautiful/>
-      <Features />
-      <OurService />
-      <Integration />
-      <Join />
-      <Pricing />
-      <Question/>
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+         <Route path="/service" element={<Service />} /> 
+      </Routes>
     </>
   )
 }

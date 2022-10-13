@@ -1,0 +1,78 @@
+.Upleash {
+    padding: 96px 0;
+    text-align: center;
+
+    &-title {
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #101828;
+        margin-top: 24px;
+        margin-bottom: 20px;
+    }
+
+    &-text {
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #667085;
+        margin-bottom: 64px;
+    }
+
+    &-list {
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .hr {
+            height: 112px;
+            width: 1px;
+            background-color: #E4E7EC;
+        }
+    }
+
+    &-item {
+        text-align: center;
+
+        h2 {
+            width: 234px;
+            margin: 0 auto;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 60px;
+            line-height: 72px;
+            text-align: center;
+            letter-spacing: -0.02em;
+            color: #DC6803;
+            margin-bottom: 12px;
+
+        }
+
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            text-align: center;
+            color: #101828;
+        }
+    }
+}

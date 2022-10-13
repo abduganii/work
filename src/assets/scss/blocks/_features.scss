@@ -1,0 +1,42 @@
+.Features {
+    margin: 96px 0;
+
+    &__title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #B54708;
+    }
+
+    &__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #101828;
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+
+    &__disc {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #667085;
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}

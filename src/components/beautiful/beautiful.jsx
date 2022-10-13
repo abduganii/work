@@ -3,11 +3,7 @@ import phone from "../../assets/images/image2.png"
 import play from "../../assets/images/play.svg"
 import app from "../../assets/images/app.svg"
 
-import {
-    NavLink
-}
-
-    from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Beautiful = () => {
     return (

@@ -23,17 +23,17 @@ const Header = () => {
                             </NavLink>
                         </li>
                         <li className='header__nav-item'>
-                            <NavLink className="header__nav-link" to={'/'}>
+                            <NavLink className="header__nav-link" to={'/products'}>
                                 Products
                             </NavLink>
                         </li>
                         <li className='header__nav-item'>
-                            <NavLink className="header__nav-link" to={'/'}>
+                            <NavLink className="header__nav-link" to={'/pricing'}>
                                 Pricing
                             </NavLink>
                         </li>
                         <li className='header__nav-item'>
-                            <NavLink className="header__nav-link" to={'/'}>
+                            <NavLink className="header__nav-link" to={'/blog'}>
                                 Blog
                             </NavLink>
                         </li>

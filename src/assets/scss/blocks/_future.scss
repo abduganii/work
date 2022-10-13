@@ -1,0 +1,105 @@
+.future {
+
+    .container {
+        padding: 96px 0;
+        width: 100%;
+        max-width: 1216px;
+        border-top: 1px solid #E4E7EC;
+        border-bottom: 1px solid #E4E7EC;
+    }
+
+    &_top {
+        text-align: center;
+        margin-bottom: 64px;
+
+        &-title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #B54708;
+        }
+
+        &-text {
+            width: 100%;
+            max-width: 768px;
+            margin: 0 auto;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+            letter-spacing: -0.02em;
+            color: #101828;
+            margin-top: 12px;
+            margin-bottom: 20px;
+        }
+
+        &-dicr {
+            width: 100%;
+            max-width: 768px;
+            margin: 0 auto;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            color: #667085;
+        }
+    }
+
+    &_bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        &-wraper {
+            width: 100%;
+            max-width: 384px;
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        &-title {
+            width: 100%;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            color: #101828;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        &-text {
+            width: 100%;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #667085;
+        }
+    }
+}
+
+.Cutting_imgs {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+.Cutting_img2 {
+    position: absolute;
+    bottom: 0;
+    left: 165px;
+}

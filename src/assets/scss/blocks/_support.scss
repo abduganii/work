@@ -1,0 +1,107 @@
+.Support {
+    &_bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 32px;
+        margin-right: 32px;
+
+
+        &-item {
+            margin-bottom: 48px;
+
+
+
+            display: flex;
+
+
+            &:nth-child(1) {
+
+                &::before {
+                    content: "";
+                    display: inline-block;
+                    width: 48px;
+                    height: 48px;
+                    background-image: url("../../images/oicon.svg");
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    margin-right: 16px;
+                }
+            }
+
+            &:nth-child(2) {
+
+                &::before {
+                    content: "";
+                    display: inline-block;
+                    width: 48px;
+                    height: 48px;
+                    background-image: url("../../images/sticon.svg");
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    margin-right: 16px;
+
+                }
+            }
+
+            &:nth-child(3) {
+
+                &::before {
+                    content: "";
+                    display: inline-block;
+                    width: 48px;
+                    height: 48px;
+                    background-image: url("../../images/zaicon.png");
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    margin-right: 16px;
+
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+
+                &::before {
+                    content: "";
+                    display: inline-block;
+                    width: 48px;
+                    height: 48px;
+                    background-image: url("../../images/plicon.svg");
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    margin-right: 16px;
+
+                }
+            }
+        }
+
+        &-title {
+            width: 100%;
+            max-width: 496px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #101828;
+            margin-bottom: 8px;
+        }
+
+        &-text {
+            width: 100%;
+            max-width: 496px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #667085;
+
+        }
+    }
+}

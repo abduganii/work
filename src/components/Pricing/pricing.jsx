@@ -1,4 +1,4 @@
-import icon from "../../assets/images/icon.png"
+import icon from "../../assets/images/Featuredicone.svg"
 
 const Pricing = () => {
     return (

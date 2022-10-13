@@ -1,0 +1,111 @@
+.Build {
+    padding: 96px 0;
+
+    &_top {
+        margin-left: 32px;
+        margin-bottom: 64px;
+
+        &-title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: #B54708;
+        }
+
+        &-text {
+            width: 100%;
+            max-width: 768px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            letter-spacing: -0.02em;
+            color: #101828;
+            margin-top: 12px;
+            margin-bottom: 20px;
+        }
+
+        &-dicr {
+            width: 100%;
+            max-width: 768px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #667085;
+
+        }
+    }
+
+    &_bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 32px;
+        margin-right: 32px;
+
+        &-left {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        &-wrapper {
+            width: 100%;
+            max-width: 264px;
+            margin-bottom: 64px;
+
+            &:nth-child(1) {
+                margin-right: 32px;
+            }
+
+            &:nth-child(3) {
+                margin-bottom: 0;
+                margin-right: 32px;
+            }
+
+            &:nth-child(4) {
+                margin-bottom: 0;
+            }
+        }
+
+        &-number {
+            width: 100%;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 60px;
+            line-height: 72px;
+            text-align: center;
+            letter-spacing: -0.02em;
+            color: #DC6803;
+        }
+
+        &-title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            text-align: center;
+            color: #101828;
+            margin-top: 12px;
+            margin-bottom: 8px;
+        }
+
+        &-text {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #667085;
+        }
+    }
+}

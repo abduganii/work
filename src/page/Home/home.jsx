@@ -9,9 +9,6 @@ import Pricing from '../../components/Pricing/pricing';
 import Question from '../../components/question/question';
 
 
-
-
-
 function Home() {
     return (
         <>

@@ -1,0 +1,150 @@
+.post {
+    margin-bottom: 96px;
+
+    &-title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #101828;
+        margin: 0 32px;
+        margin-bottom: 32px;
+    }
+
+    &_bottom {
+        margin-left: 32px;
+        margin-right: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &_wrapper {
+        width: 100%;
+        max-width: 384px;
+        margin-bottom: 48px;
+
+        &-ds {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &::after {
+                content: "";
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                background-image: url("../../images/Iconluck.svg");
+                background-size: contain;
+
+            }
+        }
+
+        &-date {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+            color: #B54708;
+            margin-top: 32px;
+        }
+
+        &-title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            margin: 12px 0;
+            line-height: 32px;
+            color: #101828;
+        }
+
+        &-text {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #667085;
+        }
+    }
+
+    &_btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 32px;
+        margin-top: 32px;
+        border-top: 1px solid #E4E7EC;
+
+        &-list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        &-number {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            color: #667085;
+            padding: 10px 15px;
+            background-color: white;
+            border: none;
+
+            &:active {
+                background: #F9F5FF;
+                border-radius: 8px;
+            }
+        }
+
+        &-Previous {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #667085;
+            background-color: white;
+            border: none;
+
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 11.6px;
+                height: 11.6px;
+                background-image: url("../../images/leftIcon.png");
+                background-size: contain;
+                margin-right: 12px;
+            }
+        }
+
+        &-next {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #667085;
+            background-color: white;
+            border: none;
+
+            &::after {
+                content: "";
+                display: inline-block;
+                width: 11.6px;
+                height: 11.6px;
+                background-image: url("../../images/rightIcon.png");
+                background-size: contain;
+                margin-left: 12px;
+            }
+        }
+    }
+}

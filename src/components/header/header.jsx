@@ -41,7 +41,7 @@ const Header = () => {
                 </nav>
 
                 <div className="header__btn">
-                    <NavLink className="header__btn-link" to={'/'}>
+                    <NavLink className="header__btn-link" to={'/contactUs'}>
                         Contact
                     </NavLink>
                 </div>

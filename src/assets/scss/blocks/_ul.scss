@@ -1,0 +1,83 @@
+.Ul {
+    .container {
+        max-width: 1216px;
+    }
+
+    &_bottom {
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+        border-bottom: 1px solid #E4E7EC;
+        margin-bottom: 96px;
+
+        &-wrapper {
+            padding: 8px 0;
+            padding-left: 20px;
+            border-left: 2px solid #B54708;
+
+
+            &-title {
+                font-family: 'Inter';
+                font-style: italic;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 36px;
+                color: #101828;
+            }
+
+            &-text {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #667085;
+                margin-top: 32px;
+            }
+        }
+
+        &-imgtext {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #667085;
+            margin-top: 16px;
+            margin-bottom: 48px;
+        }
+
+        &-text {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #667085;
+            margin-top: 96px;
+            padding-bottom: 32px;
+            margin-bottom: 48px;
+            border-bottom: 1px solid #E4E7EC;
+        }
+
+        &-intro {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 38px;
+            color: #101828;
+
+            &-text {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                color: #667085;
+                margin-top: 24px;
+                margin-bottom: 48px;
+            }
+        }
+    }
+}

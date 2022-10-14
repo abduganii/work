@@ -1,0 +1,44 @@
+.navbar {
+    &-list {
+        display: flex;
+
+        margin-right: 32px;
+        margin-left: 32px;
+        border-bottom: 1px solid #E4E7EC;
+
+        .active {
+            color: #B54708;
+        }
+    }
+
+    &-item {
+        display: inline-block;
+        margin-right: 16px;
+        border-bottom: 1px solid transparent;
+        padding-bottom: 16px;
+
+        &:active {
+            border-bottom: 1px solid #B54708;
+        }
+
+    }
+
+
+
+    &-item:active &-link {
+        color: #B54708;
+    }
+
+
+    &-link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #667085;
+    }
+
+    margin-bottom: 54px;
+}

@@ -1,50 +1,44 @@
-.Features {
-    margin: 96px 0;
+.Ourblog {
+    margin-bottom: 96px;
+}
 
-    &__title {
+.Ourblog_top {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 64px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    &-text {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
         line-height: 24px;
-        text-align: center;
         color: #B54708;
     }
 
-    &__text {
+    &-title {
+        margin-top: 12px;
+        margin-bottom: 20px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
         line-height: 44px;
-        text-align: center;
         letter-spacing: -0.02em;
         color: #101828;
-        width: 100%;
-        max-width: 768px;
-        margin: 0 auto;
-        margin-top: 12px;
-        margin-bottom: 20px;
     }
 
-    &__disc {
+    &-dicr {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
         line-height: 30px;
-        text-align: center;
         color: #667085;
-        width: 100%;
-        max-width: 768px;
-        margin: 0 auto;
     }
-}
 
-.stories {
-    margin-top: 179px;
-}
 
-.ul {
-    margin-top: 179px;
 }

@@ -1,50 +1,47 @@
-.Features {
-    margin: 96px 0;
+.Knowus {
+    .container {
+        max-width: 1256px;
+        padding-top: 96px;
+        padding-bottom: 96px;
+        border-top: 1px solid #E4E7EC;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-    &__title {
+    &_left {
+        width: 100%;
+        max-width: 576px;
+    }
+
+    &-name {
+
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
         line-height: 24px;
-        text-align: center;
         color: #B54708;
     }
 
-    &__text {
+    &-title {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
         line-height: 44px;
-        text-align: center;
         letter-spacing: -0.02em;
         color: #101828;
-        width: 100%;
-        max-width: 768px;
-        margin: 0 auto;
         margin-top: 12px;
         margin-bottom: 20px;
     }
 
-    &__disc {
+    &-text {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
         line-height: 30px;
-        text-align: center;
         color: #667085;
-        width: 100%;
-        max-width: 768px;
-        margin: 0 auto;
     }
-}
-
-.stories {
-    margin-top: 179px;
-}
-
-.ul {
-    margin-top: 179px;
 }

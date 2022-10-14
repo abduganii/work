@@ -18,6 +18,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+
         }
 
         &-link {
@@ -31,6 +32,8 @@
             &:active {
                 color: #DC6803;
             }
+
+
         }
 
         &-item {
@@ -44,6 +47,16 @@
 
             &:last-child {
                 margin-right: 0;
+            }
+
+            .active {
+                color: #DC6803;
+            }
+
+            &:first-child {
+                .clolor {
+                    color: #667085;
+                }
             }
         }
     }

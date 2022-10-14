@@ -9,7 +9,6 @@ const Post = () => {
     return (
         <>
             <Header />
-            <CompaniesStatis />
             <Stories />
             <Navbar />
             <Posts />

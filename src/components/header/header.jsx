@@ -1,7 +1,14 @@
 import logo from "../../assets/images/logo.svg"
 import { NavLink } from 'react-router-dom'
+import { useRef } from "react"
 
 const Header = () => {
+
+    const x = useRef()
+
+    const reamveClass = () => {
+        x.current.style.color = '#DC6803'
+    }
     return (
         <header className="header">
             <div className="container">
@@ -12,13 +19,13 @@ const Header = () => {
                 </div>
                 <nav className='header__nav'>
                     <ul className='header__nav-list'>
-                        <li className='header__nav-item'>
-                            <NavLink className="header__nav-link" to={'/'}>
+                        <li className='header__nav-item' >
+                            <NavLink ref={x} className="header__nav-link clolor" onClick={reamveClass} to={'/'}>
                                 Home
                             </NavLink>
                         </li>
                         <li className='header__nav-item'>
-                            <NavLink className="header__nav-link" to={'/service'}>
+                            <NavLink className="header__nav-link" to={'/service'}  >
                                 Service
                             </NavLink>
                         </li>
@@ -28,12 +35,12 @@ const Header = () => {
                             </NavLink>
                         </li>
                         <li className='header__nav-item'>
-                            <NavLink className="header__nav-link" to={'/pricing'}>
+                            <NavLink className="header__nav-link" to={'/pricing'} >
                                 Pricing
                             </NavLink>
                         </li>
                         <li className='header__nav-item'>
-                            <NavLink className="header__nav-link" to={'/blog'}>
+                            <NavLink className="header__nav-link" to={'/blog'} >
                                 Blog
                             </NavLink>
                         </li>

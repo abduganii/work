@@ -1,3 +1,4 @@
+import Iframe from 'react-iframe'
 const ContactUs = () => {
     return (
         <div className="ContactUs">
@@ -31,6 +32,7 @@ const ContactUs = () => {
                             </div>
                         </div>
                     </div>
+                    <Iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11985.39450417649!2d69.16871488094334!3d41.323031898263245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae89dfe4cceb67%3A0xbf3124890c58bb33!2z0KHRi9GA0L3Ri9C5INCU0L7QvNC40Lo!5e0!3m2!1sru!2s!4v1665740540442!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></Iframe>
                 </div>
                 <div className="ContactUs_form">
                     <p className="ContactUs_form-name">Contact us</p>
